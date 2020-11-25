@@ -28,5 +28,3 @@ def find_the_cheese(foods)
   end
   return nil
 end
-
-foods.any? {|food| cheeses.include?(food) }
