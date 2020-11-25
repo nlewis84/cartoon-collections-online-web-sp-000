@@ -24,7 +24,9 @@ def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
   foods.any? |food|
     cheeses.include?(food)
+    return food
   end
+  return nil
 end
 
 foods.any? {|food| cheeses.include?(food) }
