@@ -5,7 +5,7 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(array)
-  array.each do |index|
+  array.map do |index|
     
   end
 end
